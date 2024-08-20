@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/4e7ae1d1f4.js" crossorigin="anonymous"></script>
 </head>
 
-<body class=" border border-red-500 mx-52 ">
+<body class=" border border-red-500 lg:mx-52 ">
 
 
     <!-- section-1  -->
@@ -55,19 +55,26 @@
 
 
         <!-- slider -->
-        <div class="hero ">
-            <div class="hero-content flex-col lg:flex-row-reverse justify-between">
-                <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                    class="max-w-sm rounded-lg shadow-2xl" />
-                <div class="w-1/2">
-                    <h1 class="text-5xl font-bold ">Honda CBR 300R</h1>
-                    <p class="py-6">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                        quasi. In deleniti eaque aut repudiandae et a id nisi.
-                    </p>
-                    <button class="btn bg-orange-400 border-none text-white text-xl">Purchase</button>
-                </div>
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full flex  justify-center  items-center">
+
+                <img src="images/slider/bike1.png" class="w-auto" />
             </div>
+            <div id="item2" class="carousel-item w-full flex  justify-center items-center">
+                <img src="images/slider/bike2.png" class="w-auto" />
+            </div>
+            <div id="item3" class="carousel-item w-full flex  justify-center items-center">
+                <img src="images/slider/bike3.png" class="w-auto" />
+            </div>
+            <div id="item4" class="carousel-item w-full flex  justify-center items-center">
+                <img src="images/slider/bike4.png" class="w-auto" />
+            </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2">
+            <a href="#item1" class="btn btn-xs">1</a>
+            <a href="#item2" class="btn btn-xs">2</a>
+            <a href="#item3" class="btn btn-xs">3</a>
+            <a href="#item4" class="btn btn-xs">4</a>
         </div>
 
 
